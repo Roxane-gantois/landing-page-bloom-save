@@ -21,8 +21,22 @@ p {
   opacity: .7;
 }
 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #D496A7;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
 
-.pre {
+
+.intro {
   color: #404042;
   font-family: 'EB Garamond', serif;
   text-align: center;
@@ -35,8 +49,12 @@ p {
 
 .logo {
   background-color: white;
-  background-size: auto;
-  position: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 .logo img {
@@ -45,12 +63,13 @@ p {
 }
 
 .banner {
-  background-color: #FFDD9F;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://www.angieflore.be/media/images/gallery/7/big/8.jpg');
   background-size: cover;
   background-position: center;
-  padding: 10px 0;
+  padding: 150px 0;
   text-align: center;
-}
+  }
+
 
 .banner h1 {
   color: white;
@@ -64,7 +83,7 @@ p {
 }
 
 .button-blue {
-  background-color: #1A48E3;
+  background-color: #D496A7;
   color: white;
   padding: 16px 48px;
   border-radius: 4px;
@@ -74,8 +93,8 @@ p {
 }
 
 .button-blue:hover {
-  background-color: #0D1EC6;
-  color: white;
+  background-color: #D496A7;
+  color: D496A7;
 }
 
 .card-white {
